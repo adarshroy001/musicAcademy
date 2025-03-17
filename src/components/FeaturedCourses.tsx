@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import courseData from '../data/music_courses.json'
 import { BackgroundGradient } from './ui/background-gradient'
-import { Button } from './ui/moving-border'
+// import { Button } from './ui/moving-border'
 
 
 //new datatype 
@@ -21,7 +21,7 @@ interface Course {
 function FeaturedCourses() {
     const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured)
     return (
-        <div className='py-12 bg-gray-900'>
+        <div className='py-12 bg-zinc-950'>
             <div>
                 <div className="text-center">
                     <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
