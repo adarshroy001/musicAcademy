@@ -16,7 +16,7 @@
 - **Aceternity UI** – UI components for an enhanced experience
 
 ## 🔗 Active Link
-[Visit Music Acad](#)  *(Replace # with your actual website link)*
+[Visit Music Acad](#)  
 
 ## 📦 Installation
 1. Clone the repository:
