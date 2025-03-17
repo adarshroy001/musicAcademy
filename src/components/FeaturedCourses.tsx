@@ -36,14 +36,14 @@ function FeaturedCourses() {
                                 className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
                                     <div className='h-72 w-[90%] rounded-lg'>
-                                        <img className='h-full w-full object-fill rounded-lg' src={course.image} alt="" />
+                                        <img className='h-full w-full object-cover rounded-lg' src={course.image} alt="" />
                                     </div>
                                     <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                                     <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
                                     <Link href={`/courses/${course.slug}`}>
-                                        <Button borderRadius="1.75rem" className="bg-white dark:bg-slate-700 text-black dark:text-white border-neutral-200 dark:border-slate-800 h-16">
+                                        <button  className="bg-white dark:bg-slate-700 text-black dark:text-white border-neutral-200 dark:border-slate-800 mt-1 max-h-fit max-w-fit py-2 px-6 rounded-[1.75rem] ">
                                                 Learn More
-                                        </Button>
+                                        </button>
 
                                     </Link>
                                 </div>
